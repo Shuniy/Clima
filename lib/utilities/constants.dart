@@ -1,30 +1,31 @@
 import 'package:flutter/material.dart';
 
 const kTempTextStyle = TextStyle(
-  fontFamily: 'Spartan MB',
-  fontSize: 100.0,
+  fontFamily: 'Helvetica',
+  fontSize: 79.0,
 );
 
 const kMessageTextStyle = TextStyle(
-  fontFamily: 'Spartan MB',
-  fontSize: 60.0,
+  fontFamily: 'Helvetica',
+  fontSize: 49.0,
 );
 
 const kButtonTextStyle = TextStyle(
-  fontSize: 30.0,
-  fontFamily: 'Spartan MB',
+  fontSize: 29.0,
+  fontFamily: 'Helvetica',
 );
 
 const kConditionTextStyle = TextStyle(
-  fontSize: 100.0,
+  fontSize: 79.0,
 );
 
 const kTextFieldInputDecoration = InputDecoration(
   filled: true,
   fillColor: Colors.white,
   icon: Icon(
-    Icons.location_city,
+    Icons.place,
     color: Colors.white,
+    size: 29,
   ),
   hintText: 'Enter City Name',
   hintStyle: TextStyle(
@@ -32,7 +33,7 @@ const kTextFieldInputDecoration = InputDecoration(
   ),
   border: OutlineInputBorder(
     borderRadius: BorderRadius.all(
-      Radius.circular(10.0),
+      Radius.circular(9.0),
     ),
     borderSide: BorderSide.none,
   ),

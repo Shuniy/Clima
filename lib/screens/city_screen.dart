@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:clima/utilities/constants.dart';
 
@@ -26,17 +27,21 @@ class _CityScreenState extends State<CityScreen> {
               Align(
                 alignment: Alignment.topLeft,
                 child: FlatButton(
+                  padding: EdgeInsets.only(top: 29),
                   onPressed: () {
                     Navigator.pop(context);
                   },
                   child: Icon(
                     Icons.arrow_back_ios,
-                    size: 50.0,
+                    size: 29.0,
                   ),
                 ),
               ),
+              SizedBox(
+                height: 69,
+              ),
               Container(
-                padding: EdgeInsets.all(20.0),
+                padding: EdgeInsets.all(13.0),
                 child: TextField(
                   style: TextStyle(
                     color: Colors.black,
