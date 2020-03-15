@@ -135,7 +135,7 @@ class _LocationScreenState extends State<LocationScreen> {
                 ),
               ),
               SizedBox(
-                height: 0.5,
+                height: 0.6,
               ),
             ],
           ),
