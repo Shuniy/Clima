@@ -11,7 +11,5 @@
 ***For learning purposes.***
 
 ## Screenshots
-![Loading Screen](images/Screenshot1.png)
-
-![Location Screen](images/Screenshot2.png)
+![Loading Screen](images/Screenshot1.png)                      ![Location Screen](images/Screenshot2.png)
 
